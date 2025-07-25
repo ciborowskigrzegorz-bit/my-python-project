@@ -1,0 +1,18 @@
+# Zadanie 1 — lista numbers i operacje
+
+numbers = [5, 2, 9, 1, 5, 6]
+
+# 1. Dodaj liczbę 7 na koniec
+numbers.append(7)
+
+# 2. Wstaw 3 na indeks 2
+numbers.insert(2, 3)
+
+# 3. Usuń ostatni element (pop)
+numbers.pop()
+
+# 4. Usuń pierwsze wystąpienie wartości 5 (remove)
+numbers.remove(5)
+
+# 5. Wyświetl wynikową listę
+print(numbers)

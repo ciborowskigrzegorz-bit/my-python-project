@@ -1,0 +1,20 @@
+# Zadanie 2 — operacje na liście nums
+nums = [4, 1, 3, 2]
+
+# 1. Zrób kopię oryginalnej listy
+nums_copy = nums.copy()
+
+# 2. Posortuj kopię (bez zmieniania oryginału)
+sorted_copy = sorted(nums_copy)
+
+# 3. Oblicz wartość minimalną, maksymalną, sumę dla oryginalnej listy
+minimum = min(nums)
+maximum = max(nums)
+total = sum(nums)
+
+# 4. Wyświetl oryginalną i skopiowaną listę oraz wyniki obliczeń
+print("Oryginalna lista:", nums)
+print("Skopiowana lista (posortowana):", sorted_copy)
+print("Min:", minimum)
+print("Max:", maximum)
+print("Suma:", total)
